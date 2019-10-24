@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+h1{font-size:54px;margin-left:30%;text-shadow:.5px .5px .5px black;letter-spacing:2px;}
+img{width:500px;margin-left:30%}
+p{
+    color: red;
+    font-size:38px;
+    margin-left:42%;
+    visibility:hidden;
+    }
+button{
+    margin-left:42%;
+    background-color:black;
+    border:none;color:white;
+    width:10%;
+    height:35px;
+    font-size:22px;
+}
+</style>
+</head>
+<body>
+
+<h1>Platinum Motorcars</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQe8Tfb4_oiY22k-bBYMzn4o6dbGVRumWA8k9Uau5HFid5cccJF"><br>
+<button type="button" onclick="showPrice()">Show Price</button>    
+<p id="price"> $500,000</p>
+
+<script>
+function showPrice(){
+		
+	document.getElementById('price').style.visibility = 'visible';
+}
+</script>
+</body>
+</html>
+
